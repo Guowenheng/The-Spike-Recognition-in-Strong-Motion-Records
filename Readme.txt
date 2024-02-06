@@ -1,5 +1,5 @@
 #This is experiment codes for：
-The Spike Recognition in Strong Motion Records Model Based on SVM and Improved Feature Extraction Method
+The Spike Recognition in Strong Motion Records Model Based on Improved Feature Extraction Method and SVM
 
 #abstract：
 Spike is a type of abnormal waveform observed in strong motion records. The spike severely affects the reliability of subsequent analysis of strong motion records. This paper conducts a processing study on the strong motion records of the Turkey-Syria earthquakes in 2023. It proposes a peak identification model for strong motion records, specifically targeting the spikes present in the form of PGA (Peak Ground Acceleration). Firstly, a method for adaptive normalization of strong motion records is proposed to eliminate the influence of different scales on manual labeling accuracy. Additionally, a peak feature extraction method is introduced, enabling the spatial distribution of strong motion records to be represented by shape feature vectors. Finally, the normalization and feature extraction methods proposed in this study are applied to Support Vector Machine (SVM) for spike identification experiments in strong motion records, achieving an F1-score of 0.868 on the test dataset.
